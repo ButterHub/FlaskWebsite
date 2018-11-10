@@ -1,0 +1,17 @@
+#noteverything {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+#everything {
+    width: 100%;
+}
+
+#main-photo {
+    margin-bottom: 20px;
+}
+
+.d-flex.flex-column.flex-md-row.align-items-center.p-3.px-md-4.mb-3.bg-white.border-bottom.shadow-sm {
+    margin-bottom: 0px;
+}
