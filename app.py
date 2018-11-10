@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 
 bob = Flask(__name__)
+application = bob # FastComet hosting (CPanel) uses Phusion Passenger, and needs application
 
 @bob.route('/')
 def slash():
